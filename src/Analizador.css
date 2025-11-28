@@ -1,0 +1,170 @@
+body {
+  background-color: #faf9f8;
+  font-family: "Poppins", sans-serif;
+}
+
+.analizador-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  color: #ff7b00;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: -10px;
+}
+
+.titulo {
+  color: #002f5f;
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.dropzone {
+  border: 2px dashed #ff7b00;
+  border-radius: 12px;
+  padding: 30px;
+  background: #fff8f0;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.dropzone:hover {
+  background: #fff3e0;
+}
+
+.dropzone p {
+  color: #333;
+  margin-top: 10px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 25px 0;
+  gap: 10px;
+}
+
+.btn {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn.naranja {
+  background: #ff7b00;
+}
+.btn.naranja:hover {
+  background: #ff932b;
+}
+
+.descripcion {
+  color: #002f5f;
+  font-size: 0.95rem;
+  margin: 10px 0 25px 0;
+}
+
+.btn-principal {
+  background: #ff7b00;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.btn-principal:hover {
+  background: #ff932b;
+}
+
+.resultado {
+  text-align: left;
+  background: #f9f9f9;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #ff7b00;
+}
+
+.resultado pre {
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.mensaje {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+  font-weight: 500;
+}
+
+.mensaje::before {
+  content: "";
+  margin-right: 5px;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #ff7b00;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.imagen-resultado {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.imagen-resultado h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.imagen-emocion {
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  border: 2px solid #ff7b00;
+  transition: transform 0.2s ease-in-out;
+}
+
+.imagen-emocion:hover {
+  transform: scale(1.03);
+}
