@@ -27,7 +27,11 @@ function Analizador() {
     formData.append("file", file);
 
     try {
+<<<<<<< HEAD
       const res = await fetch("http://148.204.56.119:8001/analizar", {
+=======
+      const res = await fetch("http://localhost:4000/analizar", {
+>>>>>>> b9a0f2e01edf2eaec3f6f0b436fd5833fa2ae723
         method: "POST",
         body: formData,
       });
