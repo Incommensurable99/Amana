@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 uvicorn main:app --host 0.0.0.0 --port 8001
 
-=======
-uvicorn main:app --reload --port 4000
->>>>>>> b9a0f2e01edf2eaec3f6f0b436fd5833fa2ae723
