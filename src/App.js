@@ -4,7 +4,7 @@ import Analizador from "./Analizador";
 function App() {
   return (
     <div>
-      <h1>AMANA</h1>
+      <h1> </h1>
       <Analizador />
     </div>
   );

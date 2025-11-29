@@ -27,7 +27,7 @@ function Analizador() {
     formData.append("file", file);
 
     try {
-      const res = await fetch("http://localhost:4000/analizar", {
+      const res = await fetch("http://148.204.56.119:8001/analizar", {
         method: "POST",
         body: formData,
       });
